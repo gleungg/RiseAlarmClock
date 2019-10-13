@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:context=".LoginScreen">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_marginHorizontal="160dp"
+        android:layout_marginVertical="42dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:letterSpacing="0.12"
+        android:textColor="#004dc7"
+        android:textSize="15sp"
+        android:text="RISE" />
+
+    <TextView
+        android:layout_marginHorizontal="100.5dp"
+        android:layout_marginVertical="134dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="#004dc7"
+        android:layout_centerHorizontal="true"
+        android:text="Friday, October 11th"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="74dp"
+        android:layout_marginVertical="163dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+        android:textColor="004dc7"
+        android:layout_centerHorizontal="true"
+        android:text="9:00pm"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="75dp"
+        android:layout_marginVertical="315dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="#004dc7"
+        android:gravity="center_horizontal"
+        android:text="Next Alarm"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="56dp"
+        android:layout_marginVertical="351dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#004dc7"
+        android:gravity="center_horizontal"
+        android:text="6:00"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="102dp"
+        android:layout_marginVertical="354dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#004dc7"
+        android:gravity="center_horizontal"
+        android:text="AM"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="289dp"
+        android:layout_marginVertical="377dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#004dc7"
+        android:gravity="center_horizontal"
+        android:text="3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="56dp"
+        android:layout_marginVertical="379dp"
+        android:gravity="center_horizontal"
+        android:text="Tomorrow - Dubhacks 2019"
+        android:textColor="#ab004dc7"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_marginHorizontal="146dp"
+        android:layout_marginVertical="510dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/add_new"></ImageView>
+<!--        android:onClick="//TODO BRING TO NEXT SCREEN"-->
+
+</RelativeLayout>

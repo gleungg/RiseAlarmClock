@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewAlarmFilled">
+
+    <TextView
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginVertical="49dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#004dc7"
+        android:text="X"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginVertical="78dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#004dc7"
+        android:text="DubHacks 2019"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="27dp"
+        android:layout_marginVertical="129dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="#5c5c5c"
+        android:text="Set Date"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="27dp"
+        android:layout_marginVertical="154dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="#004dc7"
+        android:text="October 12th, 2019"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginVertical="211dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="#5c5c5c"
+        android:text="Set Alarm"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="114dp"
+        android:layout_marginVertical="244dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#b3b3b3"
+        android:text="04\n05\n06\n07\n08"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="114dp"
+        android:layout_marginVertical="317dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#2d2d2d"
+        android:text="06"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="181dp"
+        android:layout_marginVertical="244dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#bfbfbf"
+        android:text="58\n59\n00\n01\n02"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="181dp"
+        android:layout_marginVertical="318dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#2d2d2d"
+        android:text="00"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="162dp"
+        android:layout_marginVertical="315dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:textColor="#2d2d2d"
+        android:text=":"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="249dp"
+        android:layout_marginVertical="320dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#2d2d2d"
+        android:text="AM"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="249dp"
+        android:layout_marginVertical="277dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#bfbfbf"
+        android:text="PM"
+        />
+
+
+    <TextView
+        android:layout_marginHorizontal="105dp"
+        android:layout_marginVertical="454dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="#004dc7"
+        android:text="Alarm in 9 hours"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="29dp"
+        android:layout_marginVertical="485dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="#004dc7"
+        android:text="15 minutes"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginVertical="515dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="#5c5c5c"
+        android:text="Add Group Members"
+        />
+
+    <TextView
+        android:id="@+id/gordon"
+        android:layout_marginHorizontal="86dp"
+        android:layout_marginVertical="545dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#004dc7"
+        android:text="Gordon Leung"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginVertical="550dp"
+        android:src="@drawable/gordon"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginHorizontal="86dp"
+        android:layout_marginVertical="562dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:text="(604) 000-0000"
+        android:textColor="#9e9e9e"
+        />
+    <ImageView
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginVertical="607dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:src="@drawable/jason"
+        />
+
+    <TextView
+        android:id="@+id/jason"
+        android:layout_marginHorizontal="86dp"
+        android:layout_marginVertical="603dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#004dc7"
+        android:text="Jason Chong"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="86dp"
+        android:layout_marginVertical="625dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="#9e9e9e"
+        android:text="(604) 000-0000"
+        />
+
+    <ImageView
+        android:layout_marginHorizontal="125dp"
+        android:layout_marginVertical="653dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:src="@drawable/submit"
+        />
+
+
+
+
+
+</RelativeLayout>

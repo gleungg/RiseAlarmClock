@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004dc7"
+    android:context=".AlarmRings">
+
+    <TextView
+        android:layout_marginHorizontal="149dp"
+        android:layout_marginVertical="42dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="ALARM"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="74dp"
+        android:layout_marginVertical="226.7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+        android:textColor="#ffffff"
+        android:text="6:00"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="230dp"
+        android:layout_marginVertical="290dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="am"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="104dp"
+        android:layout_marginVertical="356.7dp"
+        android:text="DubHacks2019"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginHorizontal="76dp"
+        android:layout_marginVertical="462dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#004dc7"
+        android:text="STOP"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="215dp"
+        android:layout_marginVertical="462dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="SNOOZE"
+        />
+
+
+
+</RelativeLayout>
