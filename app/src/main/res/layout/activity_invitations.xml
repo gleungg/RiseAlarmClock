@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Invitations">
+
+    <TextView
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginVertical="49dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#004dc7"
+        android:text="X"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="27dp"
+        android:layout_marginVertical="88dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#004dc7"
+        android:text="Add by phone number"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="27dp"
+        android:layout_marginVertical="143dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#004dc7"
+        android:text="Jason Chong, Gordon Leung"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="1dp"
+        android.layout_marginVertical="100"
+        android:src="@drawable/line"/>
+
+
+
+</RelativeLayout>

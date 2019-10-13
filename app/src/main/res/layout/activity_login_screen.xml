@@ -34,10 +34,10 @@
         android:layout_marginVertical="163dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="9:00pm"
         android:textSize="80sp"
         android:textColor="004dc7"
         android:layout_centerHorizontal="true"
-        android:text="9:00pm"
         />
 
     <TextView
@@ -102,7 +102,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="11dp"
-        android:src="@drawable/add_new"></ImageView>
-<!--        android:onClick="//TODO BRING TO NEXT SCREEN"-->
+        android:src="@drawable/add_new"/>
+
+    <ImageView
+        android:layout_marginHorizontal="299dp"
+        android:layout_marginVertical="381dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/person"/>
 
 </RelativeLayout>

@@ -19,7 +19,7 @@
         />
 
     <TextView
-        android:layout_marginHorizontal="74dp"
+        android:layout_marginHorizontal="104dp"
         android:layout_marginVertical="226.7dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
         />
 
     <TextView
-        android:layout_marginHorizontal="230dp"
+        android:layout_marginHorizontal="260dp"
         android:layout_marginVertical="290dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_marginHorizontal="104dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginVertical="356.7dp"
         android:text="DubHacks2019"
         android:textColor="#ffffff"
@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:textColor="#004dc7"
+        android:textColor="#ffffff"
         android:text="STOP"
         />
 
@@ -67,6 +67,12 @@
         android:text="SNOOZE"
         />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="149dp"
+        android:layout_marginVertical="138dp"
+        android:src="@drawable/alarmbell"></ImageView>
 
 
 </RelativeLayout>

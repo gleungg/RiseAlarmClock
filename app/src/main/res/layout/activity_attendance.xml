@@ -7,10 +7,9 @@
     android:background="f2f7fa"
     tools:context=".Attendance">
 
-    <ImageView
+    <TextView
         android:layout_marginHorizontal="26dp"
         android:layout_marginVertical="48dp"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
@@ -18,10 +17,9 @@
         android:text="DubHacks2019"
         />
 
-    <ImageView
+    <TextView
         android:layout_marginHorizontal="26dp"
         android:layout_marginVertical="99dp"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="17sp"
@@ -29,10 +27,9 @@
         android:text="October 12th, 2019"
         />
 
-    <ImageView
+    <TextView
         android:layout_marginHorizontal="26dp"
         android:layout_marginVertical="131dp"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
@@ -40,6 +37,126 @@
         android:text="6:00 AM"
         />
 
+    <TextView
+        android:layout_marginHorizontal="269dp"
+        android:layout_marginVertical="152dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:textColor="#e95c5c"
+        android:text="END ALARM"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginVertical="223dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="#5c5c5c"
+        android:text="Group Members (3)"
+        />
+
+
+    <TextView
+        android:layout_marginHorizontal="86dp"
+        android:layout_marginVertical="270dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="#51ad54"
+        android:text="Kylie To (you)"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="278dp"
+        android:layout_marginVertical="270dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#51ad54"
+        android:text="6:00 AM"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="86dp"
+        android:layout_marginVertical="316dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#51ad54"
+        android:text="Jason Chong"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="278dp"
+        android:layout_marginVertical="316dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#51ad54"
+        android:text="6:02 AM"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="86dp"
+        android:layout_marginVertical="359dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:textSize="14sp"
+        android:textColor="#e95c5c"
+        android:text="Gordon Leung"
+        />
+
+    <TextView
+        android:layout_marginHorizontal="86dp"
+        android:layout_marginVertical="380dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#e95c5c"
+        android:text="No answer"
+        />
+
+    <ImageView
+        android:layout_marginHorizontal="278dp"
+        android:layout_marginVertical="359dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nudge"
+        />
+
+    <ImageView
+        android:layout_marginHorizontal="28dp"
+        android:layout_marginVertical="232dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/green"
+        />
+
+    <ImageView
+        android:layout_marginHorizontal="28dp"
+        android:layout_marginVertical="275dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/green"
+        />
+
+
+    <ImageView
+        android:layout_marginHorizontal="28dp"
+        android:layout_marginVertical="359dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/red"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginVertical="198dp"
+        android:src="@drawable/line" />
 
 
 </RelativeLayout>
